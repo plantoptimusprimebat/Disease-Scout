@@ -285,7 +285,7 @@ if st.button("🚀 Identify Disease", type="primary", disabled=(image_bytes is N
         with st.spinner("Identifying disease with PlantNet AI..."):
             results = identify_disease(image_bytes, organ)
 
-                if results and "results" in results:
+        if results and "results" in results:
             st.subheader("🦠 Disease Identification Results")
 
             top_disease = None
