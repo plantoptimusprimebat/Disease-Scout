@@ -296,7 +296,7 @@ if st.button("🚀 Identify Disease", type="primary", disabled=(image_bytes is N
                 eppo_code = result.get("name", "Unknown")
                 description = result.get("description", "N/A")
 
-                if i = 0:
+                if i == 0:
                     top_disease = description
                     top_score = score
 
