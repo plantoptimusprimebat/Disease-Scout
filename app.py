@@ -378,5 +378,5 @@ st.markdown("---")
 st.caption(
     "Powered by [PlantNet API](https://my.plantnet.org/) & "
     "[Visual Crossing Weather](https://www.visualcrossing.com/) | "
-    "Built for sugarcane disease monitoring in South Africa"
+    "Built for disease monitoring in South Africa"
 )
