@@ -1,6 +1,6 @@
-# 🌾 Sugarcane Disease Scout
+# 🌾 Disease Scout
 
-A Streamlit app for sugarcane farmers to identify leaf diseases using the PlantNet API, with automatic GPS location capture and weather data collection for building disease prediction models.
+A Streamlit app for farmers to identify leaf diseases using the PlantNet API, with automatic GPS location capture and weather data collection for building disease prediction models.
 
 ## Features
 
@@ -90,7 +90,7 @@ ADMIN_PASSWORD = "your_secure_password"
 ## Project Structure
 
 ```
-sugarcane-disease-scout/
+disease-scout/
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── .env.example           # Template for environment variables
