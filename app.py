@@ -53,16 +53,13 @@ def extract_coords_from_google_link(link: str):
 
 
 def identify_disease(image_bytes: bytes, organ: str = "leaf"):
-    """Send image to PlantNet Diseases API for identification."""
-    url = "https://my-api.plantnet.org/v2/identify/all"
-
+    """Send image to PlantNet Diseases & Pests API for identification."""
+    url = "https://my-api.plantnet.org/v2/diseases/identify"
+    
     params = {
         "api-key": PLANTNET_API_KEY,
-        "include-related-images": "false",
-        "no-reject": "false",
         "nb-results": 5,
         "lang": "en",
-        "type": "kt",  # kt = diseases & pests
     }
 
     files = {
