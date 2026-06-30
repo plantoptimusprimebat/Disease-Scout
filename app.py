@@ -138,13 +138,13 @@ def load_submissions():
 # --- Streamlit App ---
 
 st.set_page_config(
-    page_title="Sugarcane Disease Scout",
+    page_title="Disease Scout",
     page_icon="🌾",
     layout="centered",
 )
 
-st.title("🌾 Sugarcane Disease Scout")
-st.markdown("Upload or take a photo of a sugarcane leaf to identify diseases.")
+st.title("🌾 Disease Scout")
+st.markdown("Upload or take a photo of a leaf to identify diseases.")
 
 # --- Sidebar: Admin/Analytics ---
 with st.sidebar:
